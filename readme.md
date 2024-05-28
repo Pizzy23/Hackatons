@@ -32,18 +32,10 @@
 - Nestjs - Prisma
 - Go - crypto
 
-
-### :art: Color Reference
-| Color | Hex |
-| --------------- | ---------------------------------------------------------------- |
-| Primary Color | ![#44659a](https://via.placeholder.com/10/44659a?text=+) #44659a |
-| Secondary Color | ![#393E46](https://via.placeholder.com/10/393E46?text=+) #393E46 |
-| Accent Color | ![#00ADB5](https://via.placeholder.com/10/00ADB5?text=+) #00ADB5 |
-| Text Color | ![#EEEEEE](https://via.placeholder.com/10/EEEEEE?text=+) #EEEEEE |
-
 ### :key: Environment Variables
 To run this project, you will need to add the following environment variables to your .env file
-`Go`
+
+Go
 ```env
 Name=Chiliz
 API_TOKEN= lumx api key
@@ -52,7 +44,7 @@ ENCRYPTION_KEY = 32 character key
 SECRET_KEY = Word to use as an auth token generator
 ```
 
-`Nestjs`
+Nestjs
 ```env
 DATABASE_URL = mysql://user:password@route:3306/db
 
