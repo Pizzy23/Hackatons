@@ -1,0 +1,7 @@
+export * from './projects/projects.interface'
+export * from './communication/communication.interface'
+export * from './feedback/feedback.interface'
+export * from './login/login.interface'
+export * from './registro/registro.interface'
+export * from './gamefication/gamefication.interface'
+export * from './register/register.interface'

@@ -1,0 +1,265 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "description": "This is a server for app.",
+        "title": "Rah",
+        "contact": {},
+        "version": "1.0"
+    },
+    "host": "localhost:8080",
+    "paths": {
+        "/add-user": {
+            "post": {
+                "description": "Adicionar um novo usuario",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "User"
+                ],
+                "summary": "Adicionar usuario",
+                "parameters": [
+                    {
+                        "description": "Dados para o arquivo",
+                        "name": "request",
+                        "in": "body",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/rah_internal_comunity_interface.User"
+                        }
+                    },
+                    {
+                        "type": "string",
+                        "default": "Bearer \u003ctoken\u003e",
+                        "description": "Token de autenticação (Colocar o token deixando o Bearer)",
+                        "name": "Authorization",
+                        "in": "header",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "$ref": "#/definitions/rah_internal_comunity_interface.User"
+                        }
+                    },
+                    "500": {
+                        "description": "Internal Server Error",
+                        "schema": {
+                            "$ref": "#/definitions/errors.InternalServerError"
+                        }
+                    }
+                }
+            }
+        },
+        "/api/test-token": {
+            "post": {
+                "description": "Cria um toke para auth do usuario",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "Auth"
+                ],
+                "summary": "Test Token",
+                "parameters": [
+                    {
+                        "type": "string",
+                        "default": "Bearer \u003ctoken\u003e",
+                        "description": "Token de autenticação",
+                        "name": "Authorization",
+                        "in": "header",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "token make:",
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        },
+        "/token": {
+            "get": {
+                "description": "Cria um toke para auth do usuario",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "Auth"
+                ],
+                "summary": "Criar token de auth",
+                "responses": {
+                    "200": {
+                        "description": "token make:",
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        },
+        "/upload-pdf": {
+            "post": {
+                "description": "Recebe um arquivo PDF e salva no servidor",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "PDF"
+                ],
+                "summary": "Upload de PDF",
+                "parameters": [
+                    {
+                        "type": "string",
+                        "description": "Email do usuario",
+                        "name": "Email",
+                        "in": "header",
+                        "required": true
+                    },
+                    {
+                        "type": "string",
+                        "description": "Descrição do objeto",
+                        "name": "Description",
+                        "in": "header",
+                        "required": true
+                    },
+                    {
+                        "type": "string",
+                        "description": "Autor",
+                        "name": "Actor",
+                        "in": "header",
+                        "required": true
+                    },
+                    {
+                        "type": "file",
+                        "description": "Arquivo PDF a ser enviado",
+                        "name": "pdf",
+                        "in": "formData",
+                        "required": true
+                    },
+                    {
+                        "type": "string",
+                        "default": "Bearer \u003ctoken\u003e",
+                        "description": "Token de autenticação (Colocar o token deixando o Bearer)",
+                        "name": "Authorization",
+                        "in": "header",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "{\"message\": \"File uploaded successfully\"}",
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    "500": {
+                        "description": "Internal Server Error",
+                        "schema": {
+                            "$ref": "#/definitions/errors.InternalServerError"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "base.BaseReq": {
+            "type": "object",
+            "properties": {
+                "LogData": {
+                    "$ref": "#/definitions/base.LogData"
+                },
+                "ResponseData": {
+                    "$ref": "#/definitions/base.ResponseData"
+                }
+            }
+        },
+        "base.LogData": {
+            "type": "object",
+            "properties": {
+                "ExecutionTime": {
+                    "type": "string"
+                },
+                "HttpStatusCode": {
+                    "type": "integer"
+                },
+                "IP": {
+                    "type": "string"
+                },
+                "Route": {
+                    "type": "string"
+                }
+            }
+        },
+        "base.ResponseData": {
+            "type": "object",
+            "properties": {
+                "Response": {}
+            }
+        },
+        "errors.InternalServerError": {
+            "type": "object",
+            "properties": {
+                "BaseReq": {
+                    "$ref": "#/definitions/base.BaseReq"
+                },
+                "InternalServerError": {
+                    "$ref": "#/definitions/errors.Message"
+                },
+                "Response": {}
+            }
+        },
+        "errors.Message": {
+            "type": "object",
+            "properties": {
+                "message": {
+                    "type": "string"
+                }
+            }
+        },
+        "rah_internal_comunity_interface.User": {
+            "type": "object",
+            "properties": {
+                "email": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "password": {
+                    "type": "string"
+                },
+                "rg": {
+                    "type": "string"
+                }
+            }
+        }
+    },
+    "securityDefinitions": {
+        "BasicAuth": {
+            "type": "basic"
+        }
+    },
+    "externalDocs": {
+        "description": "OpenAPI",
+        "url": "https://swagger.io/resources/open-api/"
+    }
+}

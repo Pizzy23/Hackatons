@@ -1,0 +1,176 @@
+definitions:
+  base.BaseReq:
+    properties:
+      LogData:
+        $ref: '#/definitions/base.LogData'
+      ResponseData:
+        $ref: '#/definitions/base.ResponseData'
+    type: object
+  base.LogData:
+    properties:
+      ExecutionTime:
+        type: string
+      HttpStatusCode:
+        type: integer
+      IP:
+        type: string
+      Route:
+        type: string
+    type: object
+  base.ResponseData:
+    properties:
+      Response: {}
+    type: object
+  errors.InternalServerError:
+    properties:
+      BaseReq:
+        $ref: '#/definitions/base.BaseReq'
+      InternalServerError:
+        $ref: '#/definitions/errors.Message'
+      Response: {}
+    type: object
+  errors.Message:
+    properties:
+      message:
+        type: string
+    type: object
+  rah_internal_comunity_interface.User:
+    properties:
+      email:
+        type: string
+      name:
+        type: string
+      password:
+        type: string
+      rg:
+        type: string
+    type: object
+externalDocs:
+  description: OpenAPI
+  url: https://swagger.io/resources/open-api/
+host: localhost:8080
+info:
+  contact: {}
+  description: This is a server for app.
+  title: Rah
+  version: "1.0"
+paths:
+  /add-user:
+    post:
+      consumes:
+      - application/json
+      description: Adicionar um novo usuario
+      parameters:
+      - description: Dados para o arquivo
+        in: body
+        name: request
+        required: true
+        schema:
+          $ref: '#/definitions/rah_internal_comunity_interface.User'
+      - default: Bearer <token>
+        description: Token de autenticação (Colocar o token deixando o Bearer)
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/rah_internal_comunity_interface.User'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/errors.InternalServerError'
+      summary: Adicionar usuario
+      tags:
+      - User
+  /api/test-token:
+    post:
+      consumes:
+      - application/json
+      description: Cria um toke para auth do usuario
+      parameters:
+      - default: Bearer <token>
+        description: Token de autenticação
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: 'token make:'
+          schema:
+            type: string
+      summary: Test Token
+      tags:
+      - Auth
+  /token:
+    get:
+      consumes:
+      - application/json
+      description: Cria um toke para auth do usuario
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: 'token make:'
+          schema:
+            type: string
+      summary: Criar token de auth
+      tags:
+      - Auth
+  /upload-pdf:
+    post:
+      consumes:
+      - application/json
+      description: Recebe um arquivo PDF e salva no servidor
+      parameters:
+      - description: Email do usuario
+        in: header
+        name: Email
+        required: true
+        type: string
+      - description: Descrição do objeto
+        in: header
+        name: Description
+        required: true
+        type: string
+      - description: Autor
+        in: header
+        name: Actor
+        required: true
+        type: string
+      - description: Arquivo PDF a ser enviado
+        in: formData
+        name: pdf
+        required: true
+        type: file
+      - default: Bearer <token>
+        description: Token de autenticação (Colocar o token deixando o Bearer)
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: '{"message": "File uploaded successfully"}'
+          schema:
+            type: string
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/errors.InternalServerError'
+      summary: Upload de PDF
+      tags:
+      - PDF
+securityDefinitions:
+  BasicAuth:
+    type: basic
+swagger: "2.0"

@@ -1,0 +1,5 @@
+export * from './projects/projects.controller'
+export * from './communication/communication.controller'
+export * from './feedback/feedback.controller'
+export * from './login/login.controller'
+export * from './register/register.controller'

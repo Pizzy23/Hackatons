@@ -1,0 +1,4 @@
+.env
+Regras.txt
+node_modules/
+dist/

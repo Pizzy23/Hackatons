@@ -1,0 +1,5 @@
+export * from './projects/projects.service'
+export * from './communication/communication.service'
+export * from './feedback/feedback.service'
+export * from './login/login.service'
+export * from './register/register.service'

@@ -1,0 +1,52 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model Feedback {
+  idFeedback Int    @id @default(autoincrement())
+  Message    String
+  Author     String
+  User       User[]
+}
+
+model Projects {
+  idProjects Int    @id @default(autoincrement())
+  Project    String
+  Status     String
+  User       User[]
+}
+
+model Communication {
+  idCommunication Int    @id @default(autoincrement())
+  Post            String
+  Company         String
+  User            User[]
+}
+
+model Login {
+  idLogin  Int     @id @default(autoincrement())
+  IsLogged Boolean
+  User     User[]
+}
+
+model User {
+  idUser Int    @id @default(autoincrement())
+  Email  String @unique
+  Score  String
+  UUID   String @unique
+
+  idFeedback      Int
+  idProjects      Int
+  idCommunication Int
+  Login_idLogin   Int
+
+  Feedback      Feedback      @relation(fields: [idFeedback], references: [idFeedback])
+  Projects      Projects      @relation(fields: [idProjects], references: [idProjects])
+  Communication Communication @relation(fields: [idCommunication], references: [idCommunication])
+  Login         Login         @relation(fields: [Login_idLogin], references: [idLogin])
+}
