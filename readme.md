@@ -26,12 +26,13 @@
 
 ### :dart: Features
 
-- NestJs - TypeOrm
+- NodeJs - TypeOrm
+- NodeJs - bcrypt
+- NodeJs - Nodemailer
+- NodeJs - Prisma
+- NodeJs - Nestjs
 - Go - GinGonic
 - Go - Swaggo
-- NestJs - bcrypt
-- Nestjs - Nodemailer
-- Nestjs - Prisma
 - Go - crypto
 
 ### :key: Environment Variables
@@ -352,6 +353,54 @@ All the hacks I did with Nestjs
 ### Work Tree
 
 ```
+oftalmo/
+├── node_modules/
+├── src/
+│   ├── config/
+│   ├── controller/
+│   │   ├── email/
+│   │   ├── home/
+│   │   ├── loan/
+│   │   ├── login/
+│   │   ├── score/
+│   │   └── index.ts
+│   ├── dto/
+│   │   ├── email/
+│   │   ├── loan/
+│   │   ├── login/
+│   │   ├── response/
+│   │   ├── score/
+│   ├── entity/
+│   │   ├── loan/
+│   │   └── login/
+│   ├── interface/
+│   │   ├── base/
+│   │   ├── loan/
+│   │   ├── response/
+│   │   └── index.ts
+│   ├── mocks/
+│   ├── service/
+│   │   ├── base/
+│   │   ├── email/
+│   │   ├── loan/
+│   │   ├── login/
+│   │   ├── score/
+│   │   └── index.ts
+│   ├── util/
+│   │   ├── cpf.ts
+│   │   ├── date.ts
+│   │   └── app.module.ts
+│   │   └── main.ts
+│   ├── test/
+├── .eslintrc.js
+├── .gitignore
+├── .prettierrc
+├── nest-cli.json
+├── package-lock.json
+├── package.json
+├── README.md
+├── tsconfig.build.json
+└── tsconfig.json
 
 ```
 
