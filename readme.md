@@ -64,7 +64,7 @@ PASSWORD = Gmail
 :package: For Hackas that I didn't participate in, but I heard about the challenge and tried to do something back.
 
 <details> <summary>GoLang</summary> <ul>
-All the hacks I did with Go
+All the hacks I did with Go<br>
 
 <details> <summary>:package: Synhelper</summary> <ul>
 
@@ -106,60 +106,396 @@ back-end-synhelper/
 Well, I came up with this solution thinking that a simple monitoring system would be good in relation to how farmers and people in the fields are simple, so leaving everything centralized on the cell phone would be super simpler. However, I think the idea could be improved a lot.
 
 </ul> </details>
-<details> <summary>:spades: Lumx</summary> <ul>
+<details> <summary>:spades: Lumx (4º Place)</summary> <ul>
 
 ### Idea
+
+Our platform aims to revolutionize the concept of loyalty tokens by centralizing their management and providing transparent exchange mechanisms. Users can effortlessly convert their loyalty tokens into other forms, accompanied by clear explanations for each transaction, thereby fostering trust and transparency among merchants. Leveraging blockchain technology, we mitigate the risks associated with fraud and manipulation, ensuring the integrity of every transaction.
 
 ### Work Tree
 
 ```
+back-end-Lumx/
+├── .vscode/
+├── cmd/
+├── config/
+├── db/
+├── docs/
+├── internal/
+│   ├── mkt/
+│   │   ├── handler/
+│   │   │   └── mkt.handler.go
+│   │   ├── interface/
+│   │   │   └── mkt.interface.go
+│   │   ├── service/
+│   │   │   └── mkt.service.go
+│   │   └── storage/
+│   │       └── mkt.storage.go
+│   ├── tokens/
+│   │   ├── handler/
+│   │   │   └── tokens.handler.go
+│   │   ├── interface/
+│   │   │   └── tokens.interface.go
+│   │   ├── service/
+│   │   │   └── tokens.service.go
+│   │   └── storage/
+│   │       └── tokens.storage.go
+│   ├── user/
+│   │   ├── handler/
+│   │   │   └── user.handler.go
+│   │   ├── interface/
+│   │   │   └── user.interface.go
+│   │   ├── service/
+│   │   │   └── user.service.go
+│   │   └── storage/
+│   │       └── user.storage.go
+├── middleware/
+├── package/
+├── util/
+├── .env
+├── .env.exemple
+├── .gitignore
+├── fanify.exe
+├── go.mod
+├── go.sum
+├── go.work
+├── go.work.sum
+├── logfile.txt
+├── main.go
+└── Readme.md
 
 ```
 
 ### How it was developed?
+
+We started with a simple idea of ​​a token that would be centralized where the user would have the token inside, talking to the mentors we arrived at a result where we would have our own currency, and it could be mined and exchanged for other loyalty tokens that we would have.
 
 </ul> </details>
 <details> <summary>:star2: Ran</summary> <ul>
 
 ### Idea
 
+Transform pdfs into images, to help the national archive digitize files in poor condition
+
 ### Work Tree
 
 ```
+back-end-han/
+├── cmd/
+├── config/
+├── db/
+├── docs/
+├── internal/
+│   ├── comunity/
+│   │   ├── handler/
+│   │   │   └── comunity.handler.go
+│   │   ├── interface/
+│   │   │   └── comu.interface.go
+│   │   ├── service/
+│   │   │   └── comunity.service.go
+│   │   └── storage/
+│   │       └── comunity.storage.go
+│   ├── match/
+│   │   ├── handler/
+│   │   │   └── match.handler.go
+│   │   ├── service/
+│   │   │   └── match.service.go
+│   │   └── storage/
+│   │       └── match.storage.go
+│   ├── rank/
+│   │   ├── handler/
+│   │   │   └── rank.handler.go
+│   │   ├── interface/
+│   │   │   └── rank.interface.go
+│   │   ├── service/
+│   │   │   └── rank.service.go
+│   │   └── storage/
+│   │       └── rank.storage.go
+│   ├── search/
+│   │   ├── handler/
+│   │   │   └── search.handler.go
+│   │   ├── interface/
+│   │   │   └── search.interface.go
+│   │   ├── service/
+│   │   │   └── search.service.go
+│   │   └── storage/
+│   │       └── search.storage.go
+├── middleware/
+├── output/
+├── pdftoimage/
+├── uploads/
+├── util/
+├── __debug_bin1838066211.exe
+├── .dockerfile
+├── .env
+├── .gitignore
+├── go.mod
+├── go.sum
+├── logfile.txt
+└── main.go
 
 ```
 
 ### How it was developed?
+
+I ended up taking an approach with go and node, to be able to work with pdfs, I didn't find anything in go to facilitate manipulating pdfs, but everything went fine using line commands
+
+```
+  cmd := exec.Command("node", "index.js")
+```
 
 </ul> </details>
 <details> <summary>:spades: Translate</summary> <ul>
 
 ### Idea
 
+This did not contain the idea, it was just asked to program a pre-defined business
+
 ### Work Tree
 
 ```
+hacka-translate/
+├── .vscode/
+├── api/
+│   ├── login/
+│   │   ├── login.controller.go
+│   │   ├── login.repository.go
+│   │   └── login.service.go
+│   └── user/
+│       ├── user.controller.go
+│       ├── user.repository.go
+│       └── user.service.go
+├── model/
+│   ├── connectDatabase.go
+│   ├── login.model.go
+│   └── user.model.go
+├── module/
+├── util/
+├── .env
+├── go.mod
+├── go.sum
+└── main.go
 
 ```
 
 ### How it was developed?
+
+This did not contain the idea, it was just asked to program a pre-defined business but it's my first hack using go and the file architecture was horrible, I would change everything about this project.
 
 </ul> </details>
-<details> <summary>:spades: Chiliz</summary> <ul>
+<details> <summary>:spades: Chiliz (1º Place)</summary> <ul>
 
 ### Idea
+Our platform aims to revolutionize the concept of loyalty tokens by centralizing their management and providing transparent exchange mechanisms. Users can effortlessly convert their loyalty tokens into other forms, accompanied by clear explanations for each transaction, thereby fostering trust and transparency among merchants. Leveraging blockchain technology, we mitigate the risks associated with fraud and manipulation, ensuring the integrity of every transaction.
 
 ### Work Tree
 
 ```
+back-end-Lumx/
+├── .vscode/
+├── cmd/
+├── config/
+├── db/
+├── docs/
+├── internal/
+│   ├── tokens/
+│   │   ├── handler/
+│   │   │   └── tokens.handler.go
+│   │   ├── interface/
+│   │   │   └── tokens.interface.go
+│   │   ├── service/
+│   │   │   └── tokens.service.go
+│   │   └── storage/
+│   │       └── tokens.storage.go
+│   ├── user/
+│   │   ├── handler/
+│   │   │   └── user.handler.go
+│   │   ├── interface/
+│   │   │   └── user.interface.go
+│   │   ├── service/
+│   │   │   └── user.service.go
+│   │   └── storage/
+│   │       └── user.storage.go
+├── middleware/
+├── package/
+├── util/
+├── .env
+├── .env.exemple
+├── .gitignore
+├── fanify.exe
+├── go.mod
+├── go.sum
+├── go.work
+├── go.work.sum
+├── logfile.txt
+├── main.go
+└── Readme.md
 
 ```
 
 ### How it was developed?
+It follows almost the same idea as the lumx hack, after all we did the same work in both hacks.
 
 </ul> </details>
 
 </ul> </details>
 <details> <summary>Nestjs</summary> <ul>
 All the hacks I did with Nestjs
+
+<details> <summary></summary> <ul>
+
+### Idea
+
+
+### Work Tree
+
+```
+
+```
+
+### How it was developed?
+
+</ul> </details>
+<details> <summary></summary> <ul>
+
+### Idea
+
+
+### Work Tree
+
+```
+
+```
+
+### How it was developed?
+
+</ul> </details>
+<details> <summary></summary> <ul>
+
+### Idea
+
+
+### Work Tree
+
+```
+
+```
+
+### How it was developed?
+
+</ul> </details>
+<details> <summary></summary> <ul>
+
+### Idea
+
+
+### Work Tree
+
+```
+
+```
+
+### How it was developed?
+
+</ul> </details>
+<details> <summary></summary> <ul>
+
+### Idea
+
+
+### Work Tree
+
+```
+
+```
+
+### How it was developed?
+
+</ul> </details>
+<details> <summary></summary> <ul>
+
+### Idea
+
+
+### Work Tree
+
+```
+
+```
+
+### How it was developed?
+
+</ul> </details>
+<details> <summary></summary> <ul>
+
+### Idea
+
+
+### Work Tree
+
+```
+
+```
+
+### How it was developed?
+
+</ul> </details>
+<details> <summary></summary> <ul>
+
+### Idea
+
+
+### Work Tree
+
+```
+
+```
+
+### How it was developed?
+
+</ul> </details>
+<details> <summary></summary> <ul>
+
+### Idea
+
+
+### Work Tree
+
+```
+
+```
+
+### How it was developed?
+
+</ul> </details>
+<details> <summary></summary> <ul>
+
+### Idea
+
+
+### Work Tree
+
+```
+
+```
+
+### How it was developed?
+
+</ul> </details>
+<details> <summary></summary> <ul>
+
+### Idea
+
+
+### Work Tree
+
+```
+
+```
+
+### How it was developed?
+
+</ul> </details>
+
+
 </ul> </details>
