@@ -67,7 +67,7 @@ PASSWORD = Gmail
 All the hacks I did with Go
 
 <details> <summary>:package: Synhelper</summary> <ul>
-Syshelper was a hacker in Europe whose I tried to take on the challenge of solving some problem, I tried to create an application that helped farmers see their plants and their plantation fields
+Synhelper was a hacker in Europe whose I tried to take on the challenge of solving some problem, I tried to create an application that helped farmers see their plants and their plantation fields
 
 </ul> </details>
 <details> <summary>:spades: Lumx</summary> <ul>
