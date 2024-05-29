@@ -345,127 +345,6 @@ It follows almost the same idea as the lumx hack, after all we did the same work
 <details> <summary>Nestjs</summary> <ul>
 All the hacks I did with Nestjs
 
-<details> <summary>:star2: Amazon-i-want</summary> <ul>
-
-### Idea
-
-### Work Tree
-
-```
-
-```
-
-### How it was developed?
-
-</ul> </details>
-
-<details> <summary>:spades: Doc-Process</summary> <ul>
-
-### Idea
-
-### Work Tree
-
-```
-
-```
-
-### How it was developed?
-
-</ul> </details>
-<details> <summary>:spades: Hackathon Amazonas</summary> <ul>
-
-### Idea
-
-### Work Tree
-
-```
-
-```
-
-### How it was developed?
-
-</ul> </details>
-<details> <summary>:spades:Hackathon Correios (2º Place)</summary> <ul>
-
-https://blog.correios.com.br/2023/08/04/correios-digital-inovacao-logistica-e-hackathon-na-campus-party-brasil-2023/#:~:text=Hackathon%20Correios&text=A%20equipe%20Cerrado%20Geeks%20ficou,incentivo%20de%20R%24%202%20mil.
-
-### Idea
-
-### Work Tree
-
-```
-
-```
-
-### How it was developed?
-
-</ul> </details>
-<details> <summary>:star2: Crea (2º Place)</summary> <ul>
-https://www.creasp.org.br/noticias/conheca-os-vencedores-do-1o-hackathon-do-crea-sp/
-
-### Idea
-
-### Work Tree
-
-```
-
-```
-
-### How it was developed?
-
-</ul> </details>
-<details> <summary>:star2: Hackathon Ideiagov (3º Place)</summary> <ul>
-
-### Idea
-
-### Work Tree
-
-```
-
-```
-
-### How it was developed?
-
-</ul> </details>
-<details> <summary>:star2: Amazonas-SerPro</summary> <ul>
-
-### Idea
-
-### Work Tree
-
-```
-
-```
-
-### How it was developed?
-
-</ul> </details>
-<details> <summary>:star2: Olx</summary> <ul>
-
-### Idea
-
-### Work Tree
-
-```
-
-```
-
-### How it was developed?
-
-</ul> </details>
-<details> <summary>:star2: Cra</summary> <ul>
-
-### Idea
-
-### Work Tree
-
-```
-
-```
-
-### How it was developed?
-
-</ul> </details>
 <details> <summary>:star2: oftalmo (1º Place)</summary> <ul>
 
 ### Idea
@@ -507,5 +386,130 @@ the links that show the result were removed from the air, however they contain m
 ### How it was developed?
 
 </ul> </details>
+<details> <summary>:spades:Hackathon Correios (2º Place)</summary> <ul>
+
+https://blog.correios.com.br/2023/08/04/correios-digital-inovacao-logistica-e-hackathon-na-campus-party-brasil-2023/#:~:text=Hackathon%20Correios&text=A%20equipe%20Cerrado%20Geeks%20ficou,incentivo%20de%20R%24%202%20mil.
+
+### Idea
+
+### Work Tree
+
+```
+
+```
+
+### How it was developed?
+
+</ul> </details>
+
+<details> <summary>:star2: Crea (2º Place)</summary> <ul>
+https://www.creasp.org.br/noticias/conheca-os-vencedores-do-1o-hackathon-do-crea-sp/
+
+### Idea
+
+### Work Tree
+
+```
+
+```
+
+### How it was developed?
+
+</ul> </details>
+<details> <summary>:star2: Hackathon Ideiagov (3º Place)</summary> <ul>
+
+### Idea
+
+### Work Tree
+
+```
+
+```
+
+### How it was developed?
+
+</ul> </details>
+
+<details> <summary>:star2: Amazon-i-want</summary> <ul>
+
+### Idea
+
+### Work Tree
+
+```
+
+```
+
+### How it was developed?
+
+</ul> </details>
+
+<details> <summary>:spades: Doc-Process</summary> <ul>
+
+### Idea
+
+### Work Tree
+
+```
+
+```
+
+### How it was developed?
+
+</ul> </details>
+<details> <summary>:spades: Hackathon Amazonas</summary> <ul>
+
+### Idea
+
+### Work Tree
+
+```
+
+```
+
+### How it was developed?
+
+</ul> </details>
+
+<details> <summary>:star2: Amazonas-SerPro</summary> <ul>
+
+### Idea
+
+### Work Tree
+
+```
+
+```
+
+### How it was developed?
+
+</ul> </details>
+<details> <summary>:star2: Olx</summary> <ul>
+
+### Idea
+
+### Work Tree
+
+```
+
+```
+
+### How it was developed?
+
+</ul> </details>
+<details> <summary>:star2: Cra</summary> <ul>
+
+### Idea
+
+### Work Tree
+
+```
+
+```
+
+### How it was developed?
+
+</ul> </details>
+
 
 </ul> </details>
