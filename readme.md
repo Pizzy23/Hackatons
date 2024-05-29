@@ -284,8 +284,10 @@ This did not contain the idea, it was just asked to program a pre-defined busine
 
 </ul> </details>
 <details> <summary>:spades: Chiliz (1º Place)</summary> <ul>
+https://br.cointelegraph.com/news/crypto-news-chiliz-announces-hackathon-winners-bnb-chain-with-updates-rwa-tokens-and-other-news
 
 ### Idea
+
 Our platform aims to revolutionize the concept of loyalty tokens by centralizing their management and providing transparent exchange mechanisms. Users can effortlessly convert their loyalty tokens into other forms, accompanied by clear explanations for each transaction, thereby fostering trust and transparency among merchants. Leveraging blockchain technology, we mitigate the risks associated with fraud and manipulation, ensuring the integrity of every transaction.
 
 ### Work Tree
@@ -334,6 +336,7 @@ back-end-Lumx/
 ```
 
 ### How it was developed?
+
 It follows almost the same idea as the lumx hack, after all we did the same work in both hacks.
 
 </ul> </details>
@@ -342,150 +345,9 @@ It follows almost the same idea as the lumx hack, after all we did the same work
 <details> <summary>Nestjs</summary> <ul>
 All the hacks I did with Nestjs
 
-<details> <summary></summary> <ul>
+<details> <summary>:star2: Amazon-i-want</summary> <ul>
 
 ### Idea
-
-
-### Work Tree
-
-```
-
-```
-
-### How it was developed?
-
-</ul> </details>
-<details> <summary></summary> <ul>
-
-### Idea
-
-
-### Work Tree
-
-```
-
-```
-
-### How it was developed?
-
-</ul> </details>
-<details> <summary></summary> <ul>
-
-### Idea
-
-
-### Work Tree
-
-```
-
-```
-
-### How it was developed?
-
-</ul> </details>
-<details> <summary></summary> <ul>
-
-### Idea
-
-
-### Work Tree
-
-```
-
-```
-
-### How it was developed?
-
-</ul> </details>
-<details> <summary></summary> <ul>
-
-### Idea
-
-
-### Work Tree
-
-```
-
-```
-
-### How it was developed?
-
-</ul> </details>
-<details> <summary></summary> <ul>
-
-### Idea
-
-
-### Work Tree
-
-```
-
-```
-
-### How it was developed?
-
-</ul> </details>
-<details> <summary></summary> <ul>
-
-### Idea
-
-
-### Work Tree
-
-```
-
-```
-
-### How it was developed?
-
-</ul> </details>
-<details> <summary></summary> <ul>
-
-### Idea
-
-
-### Work Tree
-
-```
-
-```
-
-### How it was developed?
-
-</ul> </details>
-<details> <summary></summary> <ul>
-
-### Idea
-
-
-### Work Tree
-
-```
-
-```
-
-### How it was developed?
-
-</ul> </details>
-<details> <summary></summary> <ul>
-
-### Idea
-
-
-### Work Tree
-
-```
-
-```
-
-### How it was developed?
-
-</ul> </details>
-<details> <summary></summary> <ul>
-
-### Idea
-
 
 ### Work Tree
 
@@ -497,5 +359,153 @@ All the hacks I did with Nestjs
 
 </ul> </details>
 
+<details> <summary>Doc-Process</summary> <ul>
+
+### Idea
+
+### Work Tree
+
+```
+
+```
+
+### How it was developed?
+
+</ul> </details>
+<details> <summary>Hackathon Amazonas</summary> <ul>
+
+### Idea
+
+### Work Tree
+
+```
+
+```
+
+### How it was developed?
+
+</ul> </details>
+<details> <summary>Hackathon Correios (2º Place)</summary> <ul>
+
+https://blog.correios.com.br/2023/08/04/correios-digital-inovacao-logistica-e-hackathon-na-campus-party-brasil-2023/#:~:text=Hackathon%20Correios&text=A%20equipe%20Cerrado%20Geeks%20ficou,incentivo%20de%20R%24%202%20mil.
+
+### Idea
+
+### Work Tree
+
+```
+
+```
+
+### How it was developed?
+
+</ul> </details>
+<details> <summary>:star2: Crea (2º Place)</summary> <ul>
+https://www.creasp.org.br/noticias/conheca-os-vencedores-do-1o-hackathon-do-crea-sp/
+
+### Idea
+
+### Work Tree
+
+```
+
+```
+
+### How it was developed?
+
+</ul> </details>
+<details> <summary>Hackathon Ideiagov (3º Place)</summary> <ul>
+
+### Idea
+
+### Work Tree
+
+```
+
+```
+
+### How it was developed?
+
+</ul> </details>
+<details> <summary>Amazonas-SerPro</summary> <ul>
+
+### Idea
+
+### Work Tree
+
+```
+
+```
+
+### How it was developed?
+
+</ul> </details>
+<details> <summary>Olx</summary> <ul>
+
+### Idea
+
+### Work Tree
+
+```
+
+```
+
+### How it was developed?
+
+</ul> </details>
+<details> <summary>Cra</summary> <ul>
+
+### Idea
+
+### Work Tree
+
+```
+
+```
+
+### How it was developed?
+
+</ul> </details>
+<details> <summary>oftalmo (1º Place)</summary> <ul>
+
+### Idea
+
+### Work Tree
+
+```
+
+```
+
+### How it was developed?
+
+</ul> </details>
+<details> <summary>pix-hackathon-citi (3º Place)</summary> <ul>
+
+### Idea
+
+### Work Tree
+
+```
+
+```
+
+### How it was developed?
+
+</ul> </details>
+<details> <summary>Questrade (1º Place)</summary> <ul>
+https://medium.com/@bellujrb/my-experience-at-the-questrade-hackathon-54e13ad00794
+the links that show the result were removed from the air, however they contain my friend's post on a website, where he tells a little about his experience
+
+### Idea
+
+### Work Tree
+
+```
+
+```
+
+### How it was developed?
+
+</ul> </details>
 
 </ul> </details>
