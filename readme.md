@@ -39,7 +39,6 @@
 To run this project, you will need to add the following environment variables to your .env file
 
 Go
-
 ```env
 Name=Chiliz
 API_TOKEN= lumx api key
@@ -49,7 +48,6 @@ SECRET_KEY = Word to use as an auth token generator
 ```
 
 Nestjs
-
 ```env
 DATABASE_URL = mysql://user:password@route:3306/db
 
