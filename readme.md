@@ -359,7 +359,7 @@ All the hacks I did with Nestjs
 
 </ul> </details>
 
-<details> <summary>Doc-Process</summary> <ul>
+<details> <summary>:spades: Doc-Process</summary> <ul>
 
 ### Idea
 
@@ -372,7 +372,7 @@ All the hacks I did with Nestjs
 ### How it was developed?
 
 </ul> </details>
-<details> <summary>Hackathon Amazonas</summary> <ul>
+<details> <summary>:spades: Hackathon Amazonas</summary> <ul>
 
 ### Idea
 
@@ -385,7 +385,7 @@ All the hacks I did with Nestjs
 ### How it was developed?
 
 </ul> </details>
-<details> <summary>Hackathon Correios (2º Place)</summary> <ul>
+<details> <summary>:spades:Hackathon Correios (2º Place)</summary> <ul>
 
 https://blog.correios.com.br/2023/08/04/correios-digital-inovacao-logistica-e-hackathon-na-campus-party-brasil-2023/#:~:text=Hackathon%20Correios&text=A%20equipe%20Cerrado%20Geeks%20ficou,incentivo%20de%20R%24%202%20mil.
 
@@ -414,7 +414,7 @@ https://www.creasp.org.br/noticias/conheca-os-vencedores-do-1o-hackathon-do-crea
 ### How it was developed?
 
 </ul> </details>
-<details> <summary>Hackathon Ideiagov (3º Place)</summary> <ul>
+<details> <summary>:star2: Hackathon Ideiagov (3º Place)</summary> <ul>
 
 ### Idea
 
@@ -427,7 +427,7 @@ https://www.creasp.org.br/noticias/conheca-os-vencedores-do-1o-hackathon-do-crea
 ### How it was developed?
 
 </ul> </details>
-<details> <summary>Amazonas-SerPro</summary> <ul>
+<details> <summary>:star2: Amazonas-SerPro</summary> <ul>
 
 ### Idea
 
@@ -440,7 +440,7 @@ https://www.creasp.org.br/noticias/conheca-os-vencedores-do-1o-hackathon-do-crea
 ### How it was developed?
 
 </ul> </details>
-<details> <summary>Olx</summary> <ul>
+<details> <summary>:star2: Olx</summary> <ul>
 
 ### Idea
 
@@ -453,7 +453,7 @@ https://www.creasp.org.br/noticias/conheca-os-vencedores-do-1o-hackathon-do-crea
 ### How it was developed?
 
 </ul> </details>
-<details> <summary>Cra</summary> <ul>
+<details> <summary>:star2: Cra</summary> <ul>
 
 ### Idea
 
@@ -466,7 +466,7 @@ https://www.creasp.org.br/noticias/conheca-os-vencedores-do-1o-hackathon-do-crea
 ### How it was developed?
 
 </ul> </details>
-<details> <summary>oftalmo (1º Place)</summary> <ul>
+<details> <summary>:star2: oftalmo (1º Place)</summary> <ul>
 
 ### Idea
 
@@ -479,7 +479,7 @@ https://www.creasp.org.br/noticias/conheca-os-vencedores-do-1o-hackathon-do-crea
 ### How it was developed?
 
 </ul> </details>
-<details> <summary>pix-hackathon-citi (3º Place)</summary> <ul>
+<details> <summary>:spades: pix-hackathon-citi (3º Place)</summary> <ul>
 
 ### Idea
 
@@ -492,7 +492,7 @@ https://www.creasp.org.br/noticias/conheca-os-vencedores-do-1o-hackathon-do-crea
 ### How it was developed?
 
 </ul> </details>
-<details> <summary>Questrade (1º Place)</summary> <ul>
+<details> <summary>:spades: Questrade (1º Place)</summary> <ul>
 https://medium.com/@bellujrb/my-experience-at-the-questrade-hackathon-54e13ad00794
 the links that show the result were removed from the air, however they contain my friend's post on a website, where he tells a little about his experience
 
