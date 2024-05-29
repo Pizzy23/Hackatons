@@ -5,25 +5,27 @@
 
 <h4> <span> · </span> <a href="https://github.com/Pizzy23/Hackatons/blob/master/README.md"> Documentation </a> <span> · </span> <a href="https://github.com/Pizzy23/Hackatons/issues"> Report Bug </a> <span> · </span> <a href="https://github.com/Pizzy23/Hackatons/issues"> Request Feature </a> </h4>
 
-
 </div>
 
 # :notebook_with_decorative_cover: Table of Contents
 
-- [About the Project](#star2-about-the-project)
+- [About the Repository](#star2-about-the-repository)
+- [About the projects](#ghost-about-the-projects)
 
+## :star2: About the Repository
 
-## :star2: About the Project
 ### :space_invader: Tech Stack
+
 <details> <summary>Client</summary> <ul>
-<li><a href="https://go.dev/">GoLang</a></li>
-<li><a href="https://nestjs.com/">Nest.js</a></li>
+<li>GoLang</li>
+<li>Nest.js</li>
 </ul> </details>
 <details> <summary>Database</summary> <ul>
-<li><a href="https://www.mysql.com/">Mysql</a></li>
+<li>Mysql</li>
 </ul> </details>
 
 ### :dart: Features
+
 - NestJs - TypeOrm
 - Go - GinGonic
 - Go - Swaggo
@@ -32,18 +34,12 @@
 - Nestjs - Prisma
 - Go - crypto
 
-
-### :art: Color Reference
-| Color | Hex |
-| --------------- | ---------------------------------------------------------------- |
-| Primary Color | ![#44659a](https://via.placeholder.com/10/44659a?text=+) #44659a |
-| Secondary Color | ![#393E46](https://via.placeholder.com/10/393E46?text=+) #393E46 |
-| Accent Color | ![#00ADB5](https://via.placeholder.com/10/00ADB5?text=+) #00ADB5 |
-| Text Color | ![#EEEEEE](https://via.placeholder.com/10/EEEEEE?text=+) #EEEEEE |
-
 ### :key: Environment Variables
+
 To run this project, you will need to add the following environment variables to your .env file
-`Go`
+
+Go
+
 ```env
 Name=Chiliz
 API_TOKEN= lumx api key
@@ -52,10 +48,42 @@ ENCRYPTION_KEY = 32 character key
 SECRET_KEY = Word to use as an auth token generator
 ```
 
-`Nestjs`
+Nestjs
+
 ```env
 DATABASE_URL = mysql://user:password@route:3306/db
 
 EMAIL = Gmail
 PASSWORD = Gmail
 ```
+
+## :ghost: About the projects
+
+:star2: For Hackas it just ideia but use back-end for confirmation <br>
+:spades: For Hackas it code review <br>
+:package: For Hackas that I didn't participate in, but I heard about the challenge and tried to do something back.
+
+<details> <summary>GoLang</summary> <ul>
+All the hacks I did with Go
+
+<details> <summary>:package: Synhelper</summary> <ul>
+Syshelper was a hacker in Europe whose I tried to take on the challenge of solving some problem, I tried to create an application that helped farmers see their plants and their plantation fields
+
+</ul> </details>
+<details> <summary>:spades: Lumx</summary> <ul>
+
+</ul> </details>
+<details> <summary>:star2: Ran</summary> <ul>
+
+</ul> </details>
+<details> <summary>:spades: Translate</summary> <ul>
+
+</ul> </details>
+<details> <summary>:spades: Chiliz</summary> <ul>
+
+</ul> </details>
+
+</ul> </details>
+<details> <summary>Nestjs</summary> <ul>
+All the hacks I did with Nestjs
+</ul> </details>
