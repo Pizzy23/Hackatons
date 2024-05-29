@@ -39,6 +39,7 @@
 To run this project, you will need to add the following environment variables to your .env file
 
 Go
+
 ```env
 Name=Chiliz
 API_TOKEN= lumx api key
@@ -48,6 +49,7 @@ SECRET_KEY = Word to use as an auth token generator
 ```
 
 Nestjs
+
 ```env
 DATABASE_URL = mysql://user:password@route:3306/db
 
@@ -65,19 +67,95 @@ PASSWORD = Gmail
 All the hacks I did with Go
 
 <details> <summary>:package: Synhelper</summary> <ul>
+
+### Idea
+
 Synhelper was a hacker in Europe whose I tried to take on the challenge of solving some problem, I tried to create an application that helped farmers see their plants and their plantation fields
+
+### Work Tree
+
+```
+back-end-synhelper/
+├── .vscode/
+├── config/
+│   └── router.go
+├── docs/
+├── internal/
+│   ├── external/
+│   │   ├── external.handler.go
+│   │   ├── external.interface.go
+│   │   └── external.service.go
+│   ├── field/
+│   │   ├── handler/
+│   │   ├── interface/
+│   │   ├── service/
+│   │   └── storage/
+├── repository/
+├── util/
+├── .env
+├── .gitignore
+├── go.mod
+├── go.sum
+├── main.go
+└── todo
+
+```
+
+### How it was developed?
+
+Well, I came up with this solution thinking that a simple monitoring system would be good in relation to how farmers and people in the fields are simple, so leaving everything centralized on the cell phone would be super simpler. However, I think the idea could be improved a lot.
 
 </ul> </details>
 <details> <summary>:spades: Lumx</summary> <ul>
 
+### Idea
+
+### Work Tree
+
+```
+
+```
+
+### How it was developed?
+
 </ul> </details>
 <details> <summary>:star2: Ran</summary> <ul>
+
+### Idea
+
+### Work Tree
+
+```
+
+```
+
+### How it was developed?
 
 </ul> </details>
 <details> <summary>:spades: Translate</summary> <ul>
 
+### Idea
+
+### Work Tree
+
+```
+
+```
+
+### How it was developed?
+
 </ul> </details>
 <details> <summary>:spades: Chiliz</summary> <ul>
+
+### Idea
+
+### Work Tree
+
+```
+
+```
+
+### How it was developed?
 
 </ul> </details>
 
